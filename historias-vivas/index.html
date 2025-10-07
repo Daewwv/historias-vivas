@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Historias Vivas</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <a class="brand" href="index.html">
+        <div class="logo"></div>
+        <h1>Historias Vivas</h1>
+      </a>
+      <nav class="nav">
+        <a href="crear.html">Proponer</a>
+        <a href="historias.html">Leer</a>
+        <a href="privada.html">Privada</a>
+        <a href="contacto.html">Contacto</a>
+      </nav>
+    </div>
+
+    <section class="hero">
+      <div>
+        <div class="badge">Plataforma comunitaria de historias</div>
+        <h2>Donde tus ideas <br/>cobran vida</h2>
+        <p>Escribe una idea, deja que la comunidad vote y observa cómo se transforma en una historia real con imágenes. O encarga una historia privada, solo para ti.</p>
+        <div class="cta">
+          <a class="btn" href="crear.html">🗳️ Proponer historia</a>
+          <a class="btn secondary" href="privada.html">🔒 Historia privada</a>
+          <a class="btn secondary" href="historias.html">📚 Leer historias</a>
+        </div>
+      </div>
+      <div class="card">
+        <img src="assets/images/inicio.jpg" alt="Historias Vivas — collage">
+        <div class="p">
+          <div class="kicker">Identidad visual</div>
+          <div class="h3">Estilo azul-violeta con luz suave</div>
+          <p class="p">Sube tu imagen “inicio.jpg” dentro de <code>assets/images/</code>. Luego podrás reemplazarla cuando quieras.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="features">
+      <div class="grid">
+        <div class="card">
+          <img src="assets/images/proponer.jpg" alt="Proponer historia">
+          <div class="p">
+            <div class="h3">Proponer</div>
+            <p>Ideas anónimas y votación pública.</p>
+            <a class="btn" href="crear.html">Enviar idea</a>
+          </div>
+        </div>
+        <div class="card">
+          <img src="assets/images/leer.jpg" alt="Leer historias">
+          <div class="p">
+            <div class="h3">Leer</div>
+            <p>Explora historias creadas por la comunidad.</p>
+            <a class="btn" href="historias.html">Explorar</a>
+          </div>
+        </div>
+        <div class="card">
+          <img src="assets/images/privada.jpg" alt="Historia privada">
+          <div class="p">
+            <div class="h3">Privada</div>
+            <p>Encarga una historia confidencial para regalo o colección.</p>
+            <a class="btn" href="privada.html">Solicitar</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="footer">
+      © <span id="year"></span> Historias Vivas — “donde tus ideas cobran vida”
+      <div class="notice">Traducción instantánea con el widget de Google Translate (puede tardar unos segundos).</div>
+      <div id="google_translate_element" style="margin-top:10px;"></div>
+    </div>
+  </div>
+
+  <script src="assets/script.js"></script>
+  <script type="text/javascript">
+    function googleTranslateElementInit() {
+      new google.translate.TranslateElement({pageLanguage: 'es', includedLanguages: 'es,pt,en'}, 'google_translate_element');
+    }
+  </script>
+  <script src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+</body>
+</html>
