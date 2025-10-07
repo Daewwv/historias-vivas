@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Historias Vivas</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <a class="brand" href="index.html">
+        <div class="logo"></div>
+        <h1>Historias Vivas</h1>
+      </a>
+      <nav class="nav">
+        <a href="crear.html">Proponer</a>
+        <a href="historias.html">Leer</a>
+        <a href="privada.html">Privada</a>
+        <a href="contacto.html">Contacto</a>
+      </nav>
+    </div>
+
+    <section class="section">
+      <h2>Historias recientes</h2>
+      <p class="p">Aquí aparecerán las historias generadas. Puedes reemplazar estas tarjetas por contenido real cuando lo tengas.</p>
+      <div class="grid">
+        <div class="card">
+          <img src="assets/images/leer.jpg" alt="Historia: Bajo las estrellas">
+          <div class="p">
+            <div class="h3">Bajo las estrellas</div>
+            <p class="p">Una noche de promesas bajo un cielo violeta.</p>
+            <a class="btn secondary" href="#">Leer</a>
+          </div>
+        </div>
+        <div class="card">
+          <img src="assets/images/leer.jpg" alt="Historia: El guardián del bosque">
+          <div class="p">
+            <div class="h3">El guardián del bosque</div>
+            <p class="p">Sombras antiguas y un secreto familiar.</p>
+            <a class="btn secondary" href="#">Leer</a>
+          </div>
+        </div>
+        <div class="card">
+          <img src="assets/images/leer.jpg" alt="Historia: Luz de invierno">
+          <div class="p">
+            <div class="h3">Luz de invierno</div>
+            <p class="p">Un reencuentro que cambia el destino.</p>
+            <a class="btn secondary" href="#">Leer</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="footer">
+      © <span id="year"></span> Historias Vivas — “donde tus ideas cobran vida”
+      <div class="notice">Traducción instantánea con el widget de Google Translate (puede tardar unos segundos).</div>
+      <div id="google_translate_element" style="margin-top:10px;"></div>
+    </div>
+  </div>
+
+  <script src="assets/script.js"></script>
+  <script type="text/javascript">
+    function googleTranslateElementInit() {
+      new google.translate.TranslateElement({pageLanguage: 'es', includedLanguages: 'es,pt,en'}, 'google_translate_element');
+    }
+  </script>
+  <script src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+</body>
+</html>

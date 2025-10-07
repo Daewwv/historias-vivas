@@ -1,0 +1,42 @@
+
+HISTORIAS VIVAS — INSTRUCCIONES RÁPIDAS (GitHub Pages)
+
+1) Estructura de carpetas (ya incluida en este ZIP):
+   /historias-vivas/
+     index.html
+     crear.html
+     privada.html
+     historias.html
+     contacto.html
+     /assets/
+       style.css
+       script.js
+       /images/   ← aquí sube tus 4 imágenes:
+         - inicio.jpg
+         - proponer.jpg
+         - leer.jpg
+         - privada.jpg
+
+2) Cómo subirlo a tu repositorio Web-de-remesas (desde el navegador):
+   - Entra: https://github.com/daewwv/Web-de-remesas
+   - Haz clic en “Add file” → “Upload files”.
+   - Arrastra la carpeta “historias-vivas” completa y presiona “Commit changes”.
+   - La página quedará en: https://daewwv.github.io/historias-vivas/
+
+3) Reemplaza los formularios (Google Forms):
+   Abre estos archivos y reemplaza FORM_ID_PUBLICA, FORM_ID_PRIVADA y FORM_ID_CONTACTO por los IDs reales
+   de tus Google Forms. Si aún no los tienes, pídele al asistente que los cree y te pase los enlaces.
+
+4) Traducción instantánea:
+   El pie de página incluye el widget gratuito de Google Translate. Puedes cambiar de idioma a español, portugués o inglés.
+
+5) Editar estilos:
+   - Colores, tipografías y tamaños están en assets/style.css.
+   - JS mínimo en assets/script.js (para scroll suave y futuras funciones).
+
+6) Próximos pasos sugeridos:
+   - Publica 2-3 historias reales en “historias.html”
+   - Comparte el link en redes.
+   - Más adelante: votaciones con Airtable/Supabase y pagos con Stripe/PayPal.
+
+¡Listo!
